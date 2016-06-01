@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Random Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="84.163">
+  <properties />
+  
+  
+            <testcase name="flightdetails" time="84.163" classname="testCases.Flight_Finder" />
+      
+</testsuite>

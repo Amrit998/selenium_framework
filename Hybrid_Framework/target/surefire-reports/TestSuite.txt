@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 55.926 sec <<< FAILURE!
+Registration_data(testCases.Car_Rental)  Time elapsed: 5.504 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Car Rental"}
+Command duration or timeout: 3.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'CPU0100', ip: '10.101.21.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d28a772-8ce8-4d96-934b-91aefab33965
+*** Element info: {Using=link text, value=Car Rental}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:418)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at testCases.Car_Rental.Registration_data(Car_Rental.java:33)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Car Rental"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'CPU0100', ip: '10.101.21.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+
+checkSupport(testCases.Support)  Time elapsed: 0.001 sec  <<< FAILURE!
+Framework Exception:  Invalid Locator found
+	at utils.ObjectMethods.getElement(ObjectMethods.java:63)
+	at utils.ObjectMethods.clickElement(ObjectMethods.java:16)
+	at testCases.Support.checkSupport(Support.java:24)
+
+checkVacation(testCases.Vacation)  Time elapsed: 0.002 sec  <<< FAILURE!
+Framework Exception:  Invalid Locator found
+	at utils.ObjectMethods.getElement(ObjectMethods.java:63)
+	at utils.ObjectMethods.clickElement(ObjectMethods.java:16)
+	at testCases.Vacation.checkVacation(Vacation.java:24)
+

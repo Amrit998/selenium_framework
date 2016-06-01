@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Random Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Random Test</h1>
+<p>
+  Test duration: 54.977s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testCases.Car_Rental</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Registration_data
+      </td>
+  <td class="duration">
+    5.496s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"mercury", "mercury"</span><br />
+    
+            <div class="testOutput">
+                        testCases.Car_Rental | Registration_data | FAILED<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}<br/>
+Command duration or timeout: 3.14 seconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;<br/>
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 4d28a772-8ce8-4d96-934b-91aefab33965<br/>
+*** Element info: {Using=link text, value=Car Rental}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:418)<br />
+              org.openqa.selenium.By$ByLinkText.findElement(By.java:246)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)<br />
+              testCases.Car_Rental.Registration_data(Car_Rental.java:33)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+              org.testng.TestRunner.run(TestRunner.java:624)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+              org.testng.TestNG.run(TestNG.java:1024)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+              org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;<br/>
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-1">
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)<br />
+                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">testCases.Support</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkSupport
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        testCases.Support | checkSupport | FAILED<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>Framework Exception:&nbsp; Invalid Locator found</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              utils.ObjectMethods.getElement(ObjectMethods.java:63)<br />
+              utils.ObjectMethods.clickElement(ObjectMethods.java:16)<br />
+              testCases.Support.checkSupport(Support.java:24)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+              org.testng.TestRunner.run(TestRunner.java:624)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+              org.testng.TestNG.run(TestNG.java:1024)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+              org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">testCases.Vacation</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkVacation
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        testCases.Vacation | checkVacation | FAILED<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>Framework Exception:&nbsp; Invalid Locator found</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              utils.ObjectMethods.getElement(ObjectMethods.java:63)<br />
+              utils.ObjectMethods.clickElement(ObjectMethods.java:16)<br />
+              testCases.Vacation.checkVacation(Vacation.java:24)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+              org.testng.TestRunner.run(TestRunner.java:624)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+              org.testng.TestNG.run(TestNG.java:1024)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+              org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testCases.Flight_Finder</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  flightdetails
+      </td>
+  <td class="duration">
+    6.039s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"mercury", "mercury"</span><br />
+    
+            <div class="testOutput">
+                        testCases.Flight_Finder | flightdetails | PASSED<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">testCases.LoginClass</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkLogin
+      </td>
+  <td class="duration">
+    3.988s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"mercury", "mercury"</span><br />
+    
+            <div class="testOutput">
+                        testCases.LoginClass | checkLogin | PASSED<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
