@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework\src\test\java\testng.xml</span>
+                    <span>C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework\src\test\java\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,39 +101,24 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Car_Rental" hash-for-method="Registration_data(mercury, mercury)">Registration_data(mercury, mercury)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Support" hash-for-method="checkSupport">checkSupport</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Vacation" hash-for-method="checkVacation">checkVacation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.FaiLed_Booking" hash-for-method="failed_flightdetails(mercury, mercury)">failed_flightdetails(mercury, mercury)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.LoginClass" hash-for-method="checkLogin(mercury, mercury)">checkLogin(mercury, mercury)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Flight_Finder" hash-for-method="flightdetails(mercury, mercury)">flightdetails(mercury, mercury)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -148,90 +133,68 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.Vacation</span>
+              <span class="class-name">testCases.FaiLed_Booking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkVacation">
-                  </a> <!-- checkVacation -->
-                  <span class="method-name">checkVacation</span>
-                  <div class="stack-trace">Framework Exception:  Invalid Locator found
-	at utils.ObjectMethods.getElement(ObjectMethods.java:63)
-	at utils.ObjectMethods.clickElement(ObjectMethods.java:16)
-	at testCases.Vacation.checkVacation(Vacation.java:24)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.Car_Rental</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Registration_data(mercury, mercury)">
-                  </a> <!-- Registration_data(mercury, mercury) -->
-                  <span class="method-name">Registration_data</span>
+                  <a name="failed_flightdetails(mercury, mercury)">
+                  </a> <!-- failed_flightdetails(mercury, mercury) -->
+                  <span class="method-name">failed_flightdetails</span>
                   <span class="parameters">(mercury, mercury)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}
-Command duration or timeout: 3.14 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 4d28a772-8ce8-4d96-934b-91aefab33965
-*** Element info: {Using=link text, value=Car Rental}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:418)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at testCases.Car_Rental.Registration_data(Car_Rental.java:33)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
-System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.Support</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkSupport">
-                  </a> <!-- checkSupport -->
-                  <span class="method-name">checkSupport</span>
-                  <div class="stack-trace">Framework Exception:  Invalid Locator found
-	at utils.ObjectMethods.getElement(ObjectMethods.java:63)
-	at utils.ObjectMethods.clickElement(ObjectMethods.java:16)
-	at testCases.Support.checkSupport(Support.java:24)
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d66d6c15-4803-4e61-847c-87167fc367ce
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at utils.ObjectMethods.getElement(ObjectMethods.java:43)
+	at utils.ObjectMethods.inputText(ObjectMethods.java:11)
+	at testCases.FaiLed_Booking.failed_flightdetails(FaiLed_Booking.java:110)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 37 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 52 more
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testCases.Flight_Finder</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -244,27 +207,11 @@ Driver info: driver.version: unknown
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.LoginClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkLogin(mercury, mercury)">
-                  </a> <!-- checkLogin(mercury, mercury) -->
-                  <span class="method-name">checkLogin</span>
-                  <span class="parameters">(mercury, mercury)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework\src\test\java\testng.xml</span>
+            <span class="header-content">C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework\src\test\java\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -276,15 +223,12 @@ Driver info: driver.version: unknown
     &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
     &lt;listener class-name=&quot;utils.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Random Test&quot;&gt;
+  &lt;test name=&quot;Regression Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.Car_Rental&quot;/&gt;
+      &lt;class name=&quot;testCases.FaiLed_Booking&quot;/&gt;
       &lt;class name=&quot;testCases.Flight_Finder&quot;/&gt;
-      &lt;class name=&quot;testCases.LoginClass&quot;/&gt;
-      &lt;class name=&quot;testCases.Support&quot;/&gt;
-      &lt;class name=&quot;testCases.Vacation&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Random Test --&gt;
+  &lt;/test&gt; &lt;!-- Regression Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -296,7 +240,7 @@ Driver info: driver.version: unknown
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Random Test (5 classes)</span>
+                <span class="test-name">Regression Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -322,32 +266,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'flightdetails')
-data.setCell(0, 2, 'testCases.Flight_Finder')
-data.setCell(0, 3, 6039);
+data.setCell(0, 1, 'failed_flightdetails')
+data.setCell(0, 2, 'testCases.FaiLed_Booking')
+data.setCell(0, 3, 24460);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Registration_data')
-data.setCell(1, 2, 'testCases.Car_Rental')
-data.setCell(1, 3, 5496);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkLogin')
-data.setCell(2, 2, 'testCases.LoginClass')
-data.setCell(2, 3, 3988);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkVacation')
-data.setCell(3, 2, 'testCases.Vacation')
-data.setCell(3, 3, 1);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkSupport')
-data.setCell(4, 2, 'testCases.Support')
-data.setCell(4, 3, 0);
+data.setCell(1, 1, 'flightdetails')
+data.setCell(1, 2, 'testCases.Flight_Finder')
+data.setCell(1, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -359,33 +291,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">checkLogin(mercury, mercury)</span>
+              <span class="reporter-method-name">failed_flightdetails(mercury, mercury)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">testCases.LoginClass | checkLogin | PASSED</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">flightdetails(mercury, mercury)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">testCases.Flight_Finder | flightdetails | PASSED</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">checkVacation</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">testCases.Vacation | checkVacation | FAILED</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Registration_data(mercury, mercury)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">testCases.Car_Rental | Registration_data | FAILED</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">checkSupport</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">testCases.Support | checkSupport | FAILED</span>
+                <span class="reporter-method-output">testCases.FaiLed_Booking | failed_flightdetails | FAILED</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -403,7 +311,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Car_Rental</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.FaiLed_Booking</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openUrl</span>
                 <span class="method-start">0 ms</span>
@@ -411,77 +319,28 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Registration_data(mercury, mercury)</span>
-                <span class="method-start">8699 ms</span>
+                <span class="method-name">failed_flightdetails(mercury, mercury)</span>
+                <span class="method-start">9091 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closepage</span>
-                <span class="method-start">14206 ms</span>
+                <span class="method-start">34604 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Flight_Finder</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">openUrl</span>
-                <span class="method-start">14604 ms</span>
+                <span class="method-start">35661 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">flightdetails(mercury, mercury)</span>
-                <span class="method-start">19760 ms</span>
+                <span class="method-start">44014 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closepage</span>
-                <span class="method-start">25799 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.LoginClass</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openUrl</span>
-                <span class="method-start">26003 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">checkLogin(mercury, mercury)</span>
-                <span class="method-start">32289 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closepage</span>
-                <span class="method-start">36278 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Support</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openUrl</span>
-                <span class="method-start">36561 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkSupport</span>
-                <span class="method-start">47104 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closepage</span>
-                <span class="method-start">47106 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Vacation</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openUrl</span>
-                <span class="method-start">47506 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkVacation</span>
-                <span class="method-start">52599 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closepage</span>
-                <span class="method-start">52601 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

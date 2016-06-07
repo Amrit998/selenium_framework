@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="3" name="TestSuite" time="55.921" errors="0" skipped="0">
+<testsuite tests="5" failures="3" name="TestSuite" time="45.127" errors="0" skipped="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="env.SYSTEMROOT" value="C:\Windows"/>
     <property name="localRepository" value="C:\Users\thinksysuser\.m2\repository"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="jnidispatch.path" value="C:\Users\THINKS~1\AppData\Local\Temp\jna--461446426\jna4862624496033729218.dll"/>
     <property name="os.name" value="Windows 7"/>
     <property name="env.FP_NO_HOST_CHECK" value="NO"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes"/>
@@ -19,14 +18,15 @@
     <property name="user.name" value="thinksysuser"/>
     <property name="maven.build.version" value="Apache Maven 3.3.3 (7994120775791599e205a5524ec3e0dfe41d4a06; 2015-04-22T17:27:37+05:30)"/>
     <property name="env.WINDOWS_TRACING_FLAGS" value="3"/>
-    <property name="env.PATH" value="C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_77;C:\Users\thinksysuser\AppData\Roaming\npm;C:\Users\thinksysuser\Desktop\eclipse;"/>
+    <property name="env.PATH" value="C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\nodejs;D:\TESTNG\testng-6.9.10.jar;D:\jcommander-1.48.jar;C:\Program Files\Git\cmd;C:\Users\thinksysuser\Downloads\apache-maven-3.3.9-bin.zip\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77;C:\Users\thinksysuser\AppData\Roaming\npm;C:\Users\thinksysuser\Desktop\eclipse;"/>
     <property name="user.language" value="en"/>
     <property name="env.WINDIR" value="C:\Windows"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin"/>
-    <property name="classworlds.conf" value="C:\Users\thinksysuser\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6511531628012707437.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\thinksysuser\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5649301432987667011.tmp"/>
     <property name="java.version" value="1.8.0_77"/>
     <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="env.=A:" value="A:\"/>
     <property name="env.TEMP" value="C:\Users\THINKS~1\AppData\Local\Temp"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="env.WINDOWS_TRACING_LOGFILE" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
@@ -52,6 +52,8 @@
     <property name="java.vm.version" value="25.77-b03"/>
     <property name="env.USERPROFILE" value="C:\Users\thinksysuser"/>
     <property name="user.variant" value=""/>
+    <property name="env.TESTNG_HOME" value="D:\TESTNG"/>
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77;D:\jcommander-1.48.jar"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="env.TMP" value="C:\Users\THINKS~1\AppData\Local\Temp"/>
     <property name="env.PROGRAMFILES" value="C:\Program Files"/>
@@ -63,15 +65,15 @@
     <property name="env.SESSIONNAME" value="Console"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="env.NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_77;C:\Users\thinksysuser\AppData\Roaming\npm;C:\Users\thinksysuser\Desktop\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\tools;C:\Users\thinksysuser\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\nodejs;D:\TESTNG\testng-6.9.10.jar;D:\jcommander-1.48.jar;C:\Program Files\Git\cmd;C:\Users\thinksysuser\Downloads\apache-maven-3.3.9-bin.zip\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77;C:\Users\thinksysuser\AppData\Roaming\npm;C:\Users\thinksysuser\Desktop\eclipse;;."/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="env.PSMODULEPATH" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework\EMBEDDED"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.class.path" value="/C:/Users/thinksysuser/Desktop/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="env.PROGRAMW6432" value="C:\Program Files"/>
     <property name="maven.version" value="3.3.3"/>
     <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)"/>
@@ -82,82 +84,183 @@
     <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="surefire.test.class.path" value="C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework\target\test-classes;C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework\target\classes;C:\Users\thinksysuser\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-java\2.48.2\selenium-java-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.48.2\selenium-chrome-driver-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.48.2\selenium-remote-driver-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\thinksysuser\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-api\2.48.2\selenium-api-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.48.2\selenium-edge-driver-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\thinksysuser\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.48.2\selenium-htmlunit-driver-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar;C:\Users\thinksysuser\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\thinksysuser\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\thinksysuser\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\thinksysuser\.m2\repository\org\apache\httpcomponents\httpmime\4.5\httpmime-4.5.jar;C:\Users\thinksysuser\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\thinksysuser\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\thinksysuser\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\thinksysuser\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\thinksysuser\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\thinksysuser\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\thinksysuser\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar;C:\Users\thinksysuser\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar;C:\Users\thinksysuser\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar;C:\Users\thinksysuser\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar;C:\Users\thinksysuser\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar;C:\Users\thinksysuser\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\thinksysuser\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.48.2\selenium-firefox-driver-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.48.2\selenium-ie-driver-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\thinksysuser\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.48.2\selenium-safari-driver-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-support\2.48.2\selenium-support-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\thinksysuser\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.48.2\selenium-leg-rc-2.48.2.jar;C:\Users\thinksysuser\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\thinksysuser\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\thinksysuser\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\thinksysuser\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\thinksysuser\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\thinksysuser\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\thinksysuser\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\thinksysuser\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\thinksysuser\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\thinksysuser\.m2\repository\org\testng\testng\6.9.8\testng-6.9.8.jar;C:\Users\thinksysuser\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\thinksysuser\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\thinksysuser\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\thinksysuser\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\thinksysuser\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\thinksysuser\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\thinksysuser\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\thinksysuser\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\thinksysuser\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\thinksysuser\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\thinksysuser\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework\target\test-classes;C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework\target\classes;C:\Users\thinksysuser\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\thinksysuser\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\thinksysuser\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\thinksysuser\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\thinksysuser\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\thinksysuser\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\thinksysuser\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\thinksysuser\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\thinksysuser\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\thinksysuser\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\thinksysuser\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\thinksysuser\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\thinksysuser\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\thinksysuser\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\thinksysuser\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\thinksysuser\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\thinksysuser\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\thinksysuser\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\thinksysuser\.m2\repository\org\testng\testng\6.9.8\testng-6.9.8.jar;C:\Users\thinksysuser\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\thinksysuser\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\thinksysuser\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\thinksysuser\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\thinksysuser\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\thinksysuser\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\thinksysuser\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\thinksysuser\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\thinksysuser\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\thinksysuser\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;C:\Users\thinksysuser\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;C:\Users\thinksysuser\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar;C:\Users\thinksysuser\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;C:\Users\thinksysuser\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar;C:\Users\thinksysuser\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;C:\Users\thinksysuser\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;"/>
     <property name="java.io.tmpdir" value="C:\Users\THINKS~1\AppData\Local\Temp\"/>
     <property name="env.PROCESSOR_REVISION" value="3c03"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework"/>
     <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe"/>
     <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework"/>
+    <property name="user.dir" value="C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework"/>
     <property name="env.LOCALAPPDATA" value="C:\Users\thinksysuser\AppData\Local"/>
+    <property name="env.MAVEN_HOME" value="C:\Users\thinksysuser\Downloads\apache-maven-3.3.9-bin.zip\apache-maven-3.3.9"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="basedir" value="C:\Users\thinksysuser\Downloads\ffff\New folder\Hybrid_Framework"/>
+    <property name="basedir" value="C:\Users\thinksysuser\Desktop\New folder (5)\Hybrid_Framework"/>
     <property name="env.USERNAME" value="thinksysuser"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="env.USERDOMAIN" value="CPU0100"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="env.PROCESSOR_LEVEL" value="6"/>
   </properties>
-  <testcase classname="testCases.Car_Rental" name="Registration_data" time="5.496">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}
-Command duration or timeout: 3.14 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+  <testcase classname="testCases.FaiLed_Booking" name="failed_flightdetails" time="24.465">
+    <failure message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 4d28a772-8ce8-4d96-934b-91aefab33965
-*** Element info: {Using=link text, value=Car Rental}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}
-Command duration or timeout: 3.14 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d66d6c15-4803-4e61-847c-87167fc367ce" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 4d28a772-8ce8-4d96-934b-91aefab33965
-*** Element info: {Using=link text, value=Car Rental}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:418)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at testCases.Car_Rental.Registration_data(Car_Rental.java:33)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
-System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d66d6c15-4803-4e61-847c-87167fc367ce
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at utils.ObjectMethods.getElement(ObjectMethods.java:43)
+	at utils.ObjectMethods.inputText(ObjectMethods.java:11)
+	at testCases.FaiLed_Booking.failed_flightdetails(FaiLed_Booking.java:110)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 37 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 52 more
 </failure>
   </testcase>
-  <testcase classname="testCases.Flight_Finder" name="flightdetails" time="6.039"/>
-  <testcase classname="testCases.LoginClass" name="checkLogin" time="3.989"/>
-  <testcase classname="testCases.Support" name="checkSupport" time="0.001">
-    <failure type="Framework">Framework Exception:  Invalid Locator found
-	at utils.ObjectMethods.getElement(ObjectMethods.java:63)
-	at utils.ObjectMethods.clickElement(ObjectMethods.java:16)
-	at testCases.Support.checkSupport(Support.java:24)
+  <testcase classname="testCases.FaiLed_Booking" name="closepage" time="26.531">
+    <failure message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d66d6c15-4803-4e61-847c-87167fc367ce" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d66d6c15-4803-4e61-847c-87167fc367ce
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at utils.BrowserOperation.closeBrowser(BrowserOperation.java:50)
+	at testCases.FaiLed_Booking.closepage(FaiLed_Booking.java:214)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 36 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 51 more
 </failure>
   </testcase>
-  <testcase classname="testCases.Vacation" name="checkVacation" time="0.001">
-    <failure type="Framework">Framework Exception:  Invalid Locator found
-	at utils.ObjectMethods.getElement(ObjectMethods.java:63)
-	at utils.ObjectMethods.clickElement(ObjectMethods.java:16)
-	at testCases.Vacation.checkVacation(Vacation.java:24)
+  <testcase classname="testCases.Flight_Finder" name="openUrl" time="34.917">
+    <failure message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d6bcc49-16ee-419f-8f8b-3fd2aea9ca5f" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d6bcc49-16ee-419f-8f8b-3fd2aea9ca5f
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at utils.BrowserOperation.openApplication(BrowserOperation.java:46)
+	at testCases.Flight_Finder.openUrl(Flight_Finder.java:30)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 35 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 50 more
 </failure>
+  </testcase>
+  <testcase classname="testCases.Flight_Finder" name="flightdetails" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="testCases.Flight_Finder" name="closepage" time="0.001">
+    <skipped/>
   </testcase>
 </testsuite>

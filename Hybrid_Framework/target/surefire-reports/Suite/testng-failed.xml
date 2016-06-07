@@ -6,41 +6,21 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="utils.Listeners"/>
   </listeners>
-  <test name="Random Test(failed)">
+  <test name="Regression Test(failed)">
     <classes>
       <class name="testCases.Flight_Finder">
         <methods>
           <include name="openUrl"/>
-          <include name="closepage"/>
+          <include name="flightdetails"/>
         </methods>
       </class> <!-- testCases.Flight_Finder -->
-      <class name="testCases.Vacation">
+      <class name="testCases.FaiLed_Booking">
         <methods>
-          <include name="checkVacation"/>
-          <include name="openUrl"/>
-          <include name="closepage"/>
-        </methods>
-      </class> <!-- testCases.Vacation -->
-      <class name="testCases.Car_Rental">
-        <methods>
-          <include name="Registration_data" invocation-numbers="0"/>
+          <include name="failed_flightdetails" invocation-numbers="0"/>
           <include name="closepage"/>
           <include name="openUrl"/>
         </methods>
-      </class> <!-- testCases.Car_Rental -->
-      <class name="testCases.Support">
-        <methods>
-          <include name="checkSupport"/>
-          <include name="closepage"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- testCases.Support -->
-      <class name="testCases.LoginClass">
-        <methods>
-          <include name="closepage"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- testCases.LoginClass -->
+      </class> <!-- testCases.FaiLed_Booking -->
     </classes>
-  </test> <!-- Random Test(failed) -->
+  </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

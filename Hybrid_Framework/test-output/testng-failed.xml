@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-    <listener class-name="utils.Listeners"/>
-  </listeners>
-  <test name="Random Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="testCases.Flight_Finder">
         <methods>
           <include name="openUrl"/>
-          <include name="closepage"/>
+          <include name="flightdetails"/>
         </methods>
       </class> <!-- testCases.Flight_Finder -->
-      <class name="testCases.FaiLed_Booking">
-        <methods>
-          <include name="failed_flightdetails" invocation-numbers="0"/>
-          <include name="closepage"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- testCases.FaiLed_Booking -->
     </classes>
-  </test> <!-- Random Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

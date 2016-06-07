@@ -3,113 +3,27 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Random Test</title>
+  <title>Test Results Report - Regression Test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Random Test</h1>
+<h1>Regression Test</h1>
 <p>
-  Test duration: 54.977s
+  Test duration: 33.551s
 </p>
 
-
-
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">testCases.Car_Rental</td>
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">testCases.FaiLed_Booking</td>
       </tr>
             
 <tr>
   <td class="method">
-                  Registration_data
-      </td>
-  <td class="duration">
-    5.496s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"mercury", "mercury"</span><br />
-    
-            <div class="testOutput">
-                        testCases.Car_Rental | Registration_data | FAILED<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}<br/>
-Command duration or timeout: 3.14 seconds<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;<br/>
-System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
-Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
-Session ID: 4d28a772-8ce8-4d96-934b-91aefab33965<br/>
-*** Element info: {Using=link text, value=Car Rental}</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:418)<br />
-              org.openqa.selenium.By$ByLinkText.findElement(By.java:246)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)<br />
-              testCases.Car_Rental.Registration_data(Car_Rental.java:33)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
-              org.testng.TestNG.run(TestNG.java:1024)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
-              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
-              org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
-              org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Car Rental&quot;}<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;<br/>
-System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
-Driver info: driver.version: unknown</a><br />
-        <div class="stackTrace" id="exception-1">
-                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)<br />
-                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/THINKS~1/AppData/Local/Temp/anonymous6199334839118095434webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)<br />
-                  </div>
-          </div>
-      </td>
-</tr>
-          <tr>
-        <td colspan="3" class="group">testCases.Support</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  checkSupport
+                  closepage
       </td>
   <td class="duration">
     0.000s
@@ -117,22 +31,28 @@ Driver info: driver.version: unknown</a><br />
   <td class="result">
         
     
-            <div class="testOutput">
-                        testCases.Support | checkSupport | FAILED<br />
-                  </div>
-    
+        
 
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>Framework Exception:&nbsp; Invalid Locator found</b></a><br />
-    <div class="stackTrace" id="exception-2">
-              utils.ObjectMethods.getElement(ObjectMethods.java:63)<br />
-              utils.ObjectMethods.clickElement(ObjectMethods.java:16)<br />
-              testCases.Support.checkSupport(Support.java:24)<br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
+Driver info: driver.version: RemoteWebDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: d66d6c15-4803-4e61-847c-87167fc367ce</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)<br />
+              utils.BrowserOperation.closeBrowser(BrowserOperation.java:50)<br />
+              testCases.FaiLed_Booking.closepage(FaiLed_Booking.java:214)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
               java.lang.reflect.Method.invoke(Unknown Source)<br />
               org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:703)<br />
               org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
               org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
               org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
@@ -157,33 +77,368 @@ Driver info: driver.version: unknown</a><br />
               java.lang.reflect.Method.invoke(Unknown Source)<br />
               org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
               org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
-                </div>
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-1">
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)<br />
+                      utils.BrowserOperation.closeBrowser(BrowserOperation.java:50)<br />
+                      testCases.FaiLed_Booking.closepage(FaiLed_Booking.java:214)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:703)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+                      org.testng.TestRunner.run(TestRunner.java:624)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+                      org.testng.TestNG.run(TestNG.java:1024)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+                      org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-2">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)<br />
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)<br />
+                      utils.BrowserOperation.closeBrowser(BrowserOperation.java:50)<br />
+                      testCases.FaiLed_Booking.closepage(FaiLed_Booking.java:214)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:703)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+                      org.testng.TestRunner.run(TestRunner.java:624)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+                      org.testng.TestNG.run(TestNG.java:1024)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+                      org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                  </div>
+          </div>
       </td>
 </tr>
-          <tr>
-        <td colspan="3" class="group">testCases.Vacation</td>
+          <tr class="group">
+        <td colspan="3">testCases.Flight_Finder</td>
       </tr>
             
 <tr>
   <td class="method">
-                  checkVacation
+                  openUrl
       </td>
   <td class="duration">
-    0.001s
+    0.000s
   </td>
   <td class="result">
         
     
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
+Driver info: driver.version: RemoteWebDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 4d6bcc49-16ee-419f-8f8b-3fd2aea9ca5f</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)<br />
+              utils.BrowserOperation.openApplication(BrowserOperation.java:46)<br />
+              testCases.Flight_Finder.openUrl(Flight_Finder.java:30)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+              org.testng.TestRunner.run(TestRunner.java:624)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+              org.testng.TestNG.run(TestNG.java:1024)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+              org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse">org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-4">
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)<br />
+                      utils.BrowserOperation.openApplication(BrowserOperation.java:46)<br />
+                      testCases.Flight_Finder.openUrl(Flight_Finder.java:30)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+                      org.testng.TestRunner.run(TestRunner.java:624)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+                      org.testng.TestNG.run(TestNG.java:1024)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+                      org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-5">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)<br />
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)<br />
+                      utils.BrowserOperation.openApplication(BrowserOperation.java:46)<br />
+                      testCases.Flight_Finder.openUrl(Flight_Finder.java:30)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+                      org.testng.TestRunner.run(TestRunner.java:624)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+                      org.testng.TestNG.run(TestNG.java:1024)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+                      org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">testCases.Flight_Finder</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  closepage
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testCases.FaiLed_Booking</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  failed_flightdetails
+      </td>
+  <td class="duration">
+    24.460s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"mercury", "mercury"</span><br />
+    
             <div class="testOutput">
-                        testCases.Vacation | checkVacation | FAILED<br />
+                        testCases.FaiLed_Booking | failed_flightdetails | FAILED<br />
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>Framework Exception:&nbsp; Invalid Locator found</b></a><br />
-    <div class="stackTrace" id="exception-3">
-              utils.ObjectMethods.getElement(ObjectMethods.java:63)<br />
-              utils.ObjectMethods.clickElement(ObjectMethods.java:16)<br />
-              testCases.Vacation.checkVacation(Vacation.java:24)<br />
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;CPU0100&apos;, ip: &apos;10.101.21.95&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
+Driver info: driver.version: RemoteWebDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: d66d6c15-4803-4e61-847c-87167fc367ce</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+              utils.ObjectMethods.getElement(ObjectMethods.java:43)<br />
+              utils.ObjectMethods.inputText(ObjectMethods.java:11)<br />
+              testCases.FaiLed_Booking.failed_flightdetails(FaiLed_Booking.java:110)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -214,14 +469,134 @@ Driver info: driver.version: unknown</a><br />
               java.lang.reflect.Method.invoke(Unknown Source)<br />
               org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
               org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
-                </div>
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-2">
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)<br />
+                      org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+                      utils.ObjectMethods.getElement(ObjectMethods.java:43)<br />
+                      utils.ObjectMethods.inputText(ObjectMethods.java:11)<br />
+                      testCases.FaiLed_Booking.failed_flightdetails(FaiLed_Booking.java:110)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+                      org.testng.TestRunner.run(TestRunner.java:624)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+                      org.testng.TestNG.run(TestNG.java:1024)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+                      org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-3">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)<br />
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)<br />
+                      org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+                      utils.ObjectMethods.getElement(ObjectMethods.java:43)<br />
+                      utils.ObjectMethods.inputText(ObjectMethods.java:11)<br />
+                      testCases.FaiLed_Booking.failed_flightdetails(FaiLed_Booking.java:110)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+                      org.testng.TestRunner.run(TestRunner.java:624)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+                      org.testng.TestNG.run(TestNG.java:1024)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+                      org.apache.maven.surefire.Surefire.run(Surefire.java:177)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)<br />
+                      org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)<br />
+                  </div>
+          </div>
       </td>
 </tr>
       </table>
 
-
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
           <tr>
         <td colspan="3" class="group">testCases.Flight_Finder</td>
       </tr>
@@ -231,42 +606,18 @@ Driver info: driver.version: unknown</a><br />
                   flightdetails
       </td>
   <td class="duration">
-    6.039s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">"mercury", "mercury"</span><br />
     
-            <div class="testOutput">
-                        testCases.Flight_Finder | flightdetails | PASSED<br />
-                  </div>
-    
-
-      </td>
-</tr>
-          <tr>
-        <td colspan="3" class="group">testCases.LoginClass</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  checkLogin
-      </td>
-  <td class="duration">
-    3.988s
-  </td>
-  <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">"mercury", "mercury"</span><br />
-    
-            <div class="testOutput">
-                        testCases.LoginClass | checkLogin | PASSED<br />
-                  </div>
-    
 
       </td>
 </tr>
       </table>
+
   
 </body>
 </html>
