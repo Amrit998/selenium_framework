@@ -1,0 +1,12 @@
+<suite name="Main Test Suite" verbose="2">
+
+    <test name="TestNG Test Group">
+        <!-- <classes>
+        <class name="com.test.Sample"/>
+        </classes> -->
+        <packages>
+        <package name="com.test"/>
+        </packages>
+    </test>
+    
+</suite>

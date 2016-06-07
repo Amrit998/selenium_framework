@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="D:/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/lib/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="D:/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="D:/lib/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/lib/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="D:/lib/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/lib/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="D:/lib/testng-6.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
